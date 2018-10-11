@@ -7,7 +7,7 @@ def line(katz_deli)
   arr = []
   counter = 1
   katz_deli.each do |name|
-    num_name = "#{counter}. #{name}"
+    num_name = "#{counter}. #{name} "
     arr.push(num_name)
     counter += 1 
   end
