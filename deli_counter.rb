@@ -5,7 +5,7 @@ def take_a_number(katz_deli, name)
 end
 def line(katz_deli)
   if katz_deli == [] 
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else 
   arr = []
   counter = 1
