@@ -12,3 +12,4 @@ def line(katz_deli)
     counter += 1 
   end
   return "The line is currently:" + arr.join
+end
