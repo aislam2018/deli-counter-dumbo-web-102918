@@ -14,7 +14,7 @@ def line(katz_deli)
     arr.push(num_name)
     counter += 1 
   end
-  puts "The line is currently:" + arr.join
+  puts "The line is currently: " + arr.join
 end
 end
 def now_serving(katz_deli)
