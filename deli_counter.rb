@@ -4,7 +4,7 @@ def take_a_number(katz_deli, name)
   return "Welcome, #{name}. You are number #{num} in line."
 end
 def line(katz_deli)
-  if katz_deli == nil 
+  if katz_deli == [] 
     return "The line is currently empty."
   else 
   arr = []
@@ -18,7 +18,7 @@ def line(katz_deli)
 end
 end
 def now_serving(katz_deli)
-  if katz_deli == nil
+  if katz_deli == []
     return "There is nobody waiting to be served!"
   else
   name = katz_deli.shift
