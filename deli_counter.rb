@@ -5,7 +5,8 @@ def take_a_number(katz_deli, name)
 end
 def line(katz_deli)
   if katz_deli == nil 
-    return ""
+    return "The line is currently empty."
+  else 
   arr = []
   counter = 1
   katz_deli.each do |name|
@@ -14,6 +15,7 @@ def line(katz_deli)
     counter += 1 
   end
   return "The line is currently:" + arr.join
+end
 end
 def now_serving(katz_deli)
   name = katz_deli.shift
