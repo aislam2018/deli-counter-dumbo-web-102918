@@ -13,3 +13,4 @@ def line(katz_deli)
   end
   return "The line is currently:" + arr.join
 end
+def now_serving
