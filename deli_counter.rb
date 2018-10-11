@@ -18,6 +18,8 @@ def line(katz_deli)
 end
 end
 def now_serving(katz_deli)
+  if katz_deli == nil
+    return 
   name = katz_deli.shift
   return "Currently serving #{name}."
 end
